@@ -1,8 +1,25 @@
+@font-face {
+  font-family: 'Ubuntu Regular';
+  src: local('Ubuntu-Regular'), url(../src/assets/fonts/Ubuntu-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  src: local('Ubuntu-Medium'), url(../src/assets/fonts/Ubuntu-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  src: local('Ubuntu-Bold'), url(../src/assets/fonts/Ubuntu-Bold.ttf) format('truetype');
+}
+
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   height:100vh;
+  background-color: hsl(217, 100%, 97%);
+  font-family: 'Ubuntu Regular';
 }
 
 .App-logo {
@@ -38,11 +55,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.hello {
-  color: red;
-  width: 100px;
-  aspect-ratio: 1;
-  background-color: salmon;
 }
